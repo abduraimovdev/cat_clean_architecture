@@ -1,0 +1,66 @@
+name: my_cat_network
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # json parsing
+  json_annotation: ^4.8.1
+  freezed: ^2.3.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # generate dart
+  build_runner: ^2.4.5
+
+  # json parsing
+  json_serializable: ^6.7.0
+
+  # Linter
+  flutter_lints: ^2.0.0
+  test: ^1.24.1
+
+  mockito: ^5.4.2
+
+  # eother -
+  fpdart: ^0.6.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+   - assets/fonts/
+   - assets/icons/
+   - assets/images/
+   - assets/lotties/
+   - assets/test/
+
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
